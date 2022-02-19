@@ -36,7 +36,7 @@ public class UserController {
     @GetMapping
     public Response findAll(){
         List<User> users = userService.findAll();
-        if(users == null){
+        if(users.isEmpty()){
             return builder.failed("Users is Empty");
         }
         return builder.success(users);

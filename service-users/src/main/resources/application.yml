@@ -3,14 +3,14 @@ server:
   servlet:
     context-path: /multi/v1
 spring:
-    application:
-      name: service-product
-    h2:
-      console:
-        enabled: true
-    datasource:
-      url: jdbc:h2:mem:userBD
-      driver-class-name: org.h2.Driver
-      platform: h2
-      username: xd
-      password:
+  application:
+    name: service-user
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:userBD
+    driver-class-name: org.h2.Driver
+    platform: h2
+    username: xd
+    password:
