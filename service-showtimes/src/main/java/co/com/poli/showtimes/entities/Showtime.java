@@ -24,5 +24,5 @@ public class Showtime {
     @Column(name = "date", nullable = false)
     private Date date;
 
-    private ArrayList movies;
+    //private ArrayList movies;
 }

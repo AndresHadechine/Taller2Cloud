@@ -38,7 +38,7 @@ public class ShowtimeController {
     public Response findAll(){
         List<Showtime> showtime = showtimeService.findAll();
         if(showtime.isEmpty()){
-            return builder.failed("Users is Empty");
+            return builder.failed("Showtimes is Empty");
         }
         return builder.success(showtime);
     }
