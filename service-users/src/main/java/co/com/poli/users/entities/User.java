@@ -1,8 +1,8 @@
 package co.com.poli.users.entities;
 
 import lombok.*;
-
 import javax.persistence.*;
+//import javax.validation.constraints.*;
 import java.util.Objects;
 
 @Getter
@@ -18,8 +18,12 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false, unique = true)
     private Long id;
+
+    //@NotEmpty(message = "El nombre no debe ser vacio")
     @Column(name = "name")
     private String name;
+
+    //@NotEmpty(message = "El apellido no debe ser vacio")
     @Column(name = "last_name")
     private String lastName;
 
