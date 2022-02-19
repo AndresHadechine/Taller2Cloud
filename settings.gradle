@@ -2,3 +2,4 @@ rootProject.name = 'Taller2Cloud'
 
 include 'service-users'
 include 'service-movies'
+include 'service-booking'
