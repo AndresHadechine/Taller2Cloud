@@ -17,10 +17,6 @@ Jservice-users/src/main/java/co/com/poli/users/helpers/ResponseBuilder.java,3\8
 Lservice-users/src/main/java/co/com/poli/users/controller/UserController.java,7\e\7e241adaf573a8f840d3ab5c7e69872b94e769dd
 y
 Iservice-users/src/test/java/co/com/poli/users/UserRepositoryMockTest.java,2\3\2303680011ce79c5ce36e399b95790147a16664b
-u
-Eservice-movies/src/main/java/co/com/poli/movies/helpers/Response.java,d\9\d91daf658d5550dc36d5867308bc33dac0c61318
-|
-Lservice-movies/src/main/java/co/com/poli/movies/helpers/ResponseBuilder.java,b\b\bbbed2ff09a53eaa4e6f05f8be12d8bd209bacc9
 }
 Mservice-movies/src/main/java/co/com/poli/movies/ServiceMoviesApplication.java,b\7\b7b6c3392392f243f7228690554dfee704e2c7e6
 v
@@ -33,10 +29,6 @@ M
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-i
-9service-booking/src/main/resources/application.properties,d\0\d02c40681f9648167294e7f486c7de835d7b5069
 O
 service-booking/settings.gradle,1\1\1182e194be14f95be7bc3ee664aa9b9c375e178d
 L
@@ -49,8 +41,6 @@ w
 Gservice-booking/src/main/java/co/com/poli/booking/helpers/Response.java,8\e\8e268c7e61a71156e77dd0d037a7748f0370cbf2
 ~
 Nservice-booking/src/main/java/co/com/poli/booking/helpers/ResponseBuilder.java,6\c\6c576c169bde4147c8f59c8068bb7031f6c2a830
-
-Oservice-movies/src/main/java/co/com/poli/movies/controller/MovieController.java,9\6\9679c18c70aaf51cfedafd79796cae023edc71d7
 ~
 Nservice-movies/src/main/java/co/com/poli/movies/services/MovieServiceImpl.java,6\5\658d428f2e45e34b4e947567374d6ca72a1d16f3
 z
@@ -61,21 +51,7 @@ s
 Cservice-movies/src/main/java/co/com/poli/movies/entities/Movie.java,9\f\9f9fc690c1637f53eef3ba160dce37d82fc2b7b8
 ‚
 Rservice-movies/src/test/java/co/com/poli/movies/ServiceMoviesApplicationTests.java,7\a\7a6f315dcf83b22375abb0d4b57d5dc20a4243ac
-€
-Pservice-booking/src/test/java/co/com/poli/booking/BookingRepositoryMockTest.java,9\d\9db269a19799cc71c1449dc941643e69910a7300
-}
-Mservice-booking/src/test/java/co/com/poli/booking/BookingServiceMockTest.java,2\8\28a9848f6d018b66acb2650fabc19b88b3fd759a
 y
 Iservice-movies/src/test/java/co/com/poli/movies/MovieServiceMockTest.java,e\a\ea1f153ec94d15d304f8f2282d6cc2e09ef45495
 }
 Mservice-movies/src/test/java/co/com/poli/movies/MovieRespositoryMockTest.java,a\1\a18ea3919bc9ab658d350122e39f16b3a2b5bea5
-w
-Gservice-booking/src/main/java/co/com/poli/booking/entities/Booking.java,c\f\cfccadece599c90c85ff0f15e663d7c1a8cb57db
-ƒ
-Sservice-booking/src/main/java/co/com/poli/booking/controller/BookingController.java,1\2\1262296c1d4ebc57f833e971226c91003a412009
-…
-Uservice-booking/src/main/java/co/com/poli/booking/repositories/BookingRepository.java,d\7\d7e58d3ec48a43ebcb9b7e0c4c1aec2062b90f72
-~
-Nservice-booking/src/main/java/co/com/poli/booking/services/BookingService.java,e\e\eeb52c95095182adb2823e03539dafd226cb5db5
-‚
-Rservice-booking/src/main/java/co/com/poli/booking/services/BookingServiceImpl.java,6\0\60fae940093dddd44cf0066b23c9499e4112ef4c
