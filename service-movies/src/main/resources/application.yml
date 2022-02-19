@@ -9,7 +9,7 @@ spring:
     console:
       enabled: true
   datasource:
-    url: jdbc:h2:mem:userBD
+    url: jdbc:h2:mem:movieBD
     driver-class-name: org.h2.Driver
     platform: h2
     username: xd

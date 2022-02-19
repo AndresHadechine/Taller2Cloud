@@ -41,6 +41,15 @@ public class MovieController {
         return builder.success(movie);
     }
 
+    @DeleteMapping("/{id}")
+    public Response delete(@PathVariable("id") Long id) {
+        Movie movie = movieService.findById(id);
+        if(movie == null){
+            return builder.failed("Not Found");
+        }
+        movieService.delete(movie);
+        return builder.success(movie);
+    }
 
 
 

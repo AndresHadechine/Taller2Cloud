@@ -1,8 +1,9 @@
 package co.com.poli.movies.helpers;
 
-import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
-import static org.springframework.http.HttpStatus.OK;
+import static org.springframework.http.HttpStatus.*;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ResponseBuilder {
 
     public Response success(){
