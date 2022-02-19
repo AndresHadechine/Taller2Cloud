@@ -29,10 +29,6 @@ M
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
-O
-service-booking/settings.gradle,1\1\1182e194be14f95be7bc3ee664aa9b9c375e178d
-L
-service-booking/build.gradle,7\c\7c9857e084be62e3642939eea87c2c91f4ff1a65
 K
 service-movies/build.gradle,3\3\33fe7b41f98be7ea5e36db4648547e2b92b3ceab
 N

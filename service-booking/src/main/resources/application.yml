@@ -1,0 +1,16 @@
+server:
+  port:
+  servlet:
+    context-path: /multi/v1
+spring:
+  application:
+    name: service-booking
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:bookingsDB
+    driver-class-name: org.h2.Driver
+    platform: h2
+    username: xd
+    password:
