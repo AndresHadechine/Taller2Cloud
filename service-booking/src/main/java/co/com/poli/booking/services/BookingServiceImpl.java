@@ -39,7 +39,6 @@ public class BookingServiceImpl implements BookingService{
 
     @Override
     public Booking findByUserId(Long userId) {
-
         //Mejorar (El codigo lo hizo Marycarmen)
         List<Booking> bookings = bookingRepository.findAll();
 

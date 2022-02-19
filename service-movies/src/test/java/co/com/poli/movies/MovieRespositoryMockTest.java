@@ -16,7 +16,7 @@ public class MovieRespositoryMockTest {
     private MovieRepository movieRepository;
 
     @Test
-    public void when_findAll_return_ListUser(){
+    public void when_findAll_return_ListMovies(){
         Movie movie = Movie.builder()
                 .title("El Paseo")
                 .director("Moga el Moga")
