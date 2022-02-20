@@ -1,16 +1,10 @@
-server:
-  port:
-  servlet:
-    context-path: /multi/v1
 spring:
+  config:
+    import: "optional:configserver:"
   application:
     name: service-user
-  h2:
-    console:
-      enabled: true
-  datasource:
-    url: jdbc:h2:mem:userBD
-    driver-class-name: org.h2.Driver
-    platform: h2
-    username: xd
-    password:
+  cloud:
+    config:
+      uri: http://localhost:9000
+      username: admin
+      password: admin

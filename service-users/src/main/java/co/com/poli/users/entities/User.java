@@ -1,6 +1,8 @@
 package co.com.poli.users.entities;
 
 import lombok.*;
+import org.hibernate.validator.constraints.NotEmpty;
+
 import javax.persistence.*;
 //import javax.validation.constraints.*;
 import java.util.Objects;
@@ -19,11 +21,11 @@ public class User {
     @Column(name = "id", updatable = false, nullable = false, unique = true)
     private Long id;
 
-    //@NotEmpty(message = "El nombre no debe ser vacio")
+    @NotEmpty(message = "El nombre no debe ser vacio")
     @Column(name = "name")
     private String name;
 
-    //@NotEmpty(message = "El apellido no debe ser vacio")
+    @NotEmpty(message = "El apellido no debe ser vacio")
     @Column(name = "last_name")
     private String lastName;
 

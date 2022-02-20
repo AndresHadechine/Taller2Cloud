@@ -18,9 +18,9 @@ public class Booking {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false, unique = true)
     private Long id;
-    @Column(name = "users_id")
+    @Column(name = "users_id", nullable = false)
     private Long userId;
-    @Column(name = "show_times_id")
+    @Column(name = "show_times_id", nullable = false)
     private Long showTimeId;
     //private List<Movie>;
 }
