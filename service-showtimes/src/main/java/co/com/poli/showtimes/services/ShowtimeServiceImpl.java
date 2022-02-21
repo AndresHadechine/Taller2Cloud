@@ -1,5 +1,6 @@
 package co.com.poli.showtimes.services;
 
+import co.com.poli.showtimes.client.MovieClient;
 import co.com.poli.showtimes.entities.Showtime;
 import co.com.poli.showtimes.repositories.ShowtimeRepository;
 import lombok.RequiredArgsConstructor;
@@ -13,6 +14,7 @@ import java.util.List;
 public class ShowtimeServiceImpl implements ShowtimeService {
 
     private final ShowtimeRepository showtimeRepository;
+    private final MovieClient movieClient;
 
     @Override
     @Transactional(rollbackFor = Exception.class)

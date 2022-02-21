@@ -1,5 +1,6 @@
 package co.com.poli.showtimes.entities;
 
+import co.com.poli.showtimes.model.Movie;
 import lombok.*;
 
 import javax.persistence.*;
@@ -20,9 +21,8 @@ public class Showtime {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", updatable = false, nullable = false, unique = true)
     private Long id;
-
     @Column(name = "date", nullable = false)
     private Date date;
-
-    //private ArrayList movies;
+    @Transient
+    private List<Movie> movies;
 }

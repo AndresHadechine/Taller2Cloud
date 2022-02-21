@@ -1,5 +1,6 @@
 package co.com.poli.booking.entities;
 
+import co.com.poli.booking.model.Movie;
 import lombok.*;
 
 import javax.persistence.*;
@@ -11,7 +12,7 @@ import java.util.List;
 @Table(name = "bookings")
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
+@Builder(toBuilder = true)
 public class Booking {
 
     @Id
@@ -22,5 +23,6 @@ public class Booking {
     private Long userId;
     @Column(name = "show_times_id", nullable = false)
     private Long showTimeId;
-    //private List<Movie>;
+    @Transient
+    private List<Movie> movies;
 }
