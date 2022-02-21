@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(name = "service-movie")
 public interface MovieClient {
 
-    @GetMapping("/movies")
+    @GetMapping("/multi/v1/movies")
     Response findAll();
 }

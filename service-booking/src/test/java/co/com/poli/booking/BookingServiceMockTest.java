@@ -30,6 +30,7 @@ public class BookingServiceMockTest {
                 .id(10L)
                 .userId(700L)
                 .showTimeId(333L)
+                .movies()
                 .build();
         Mockito.when(bookingRepository.findById(10L))
                 .thenReturn(Optional.of(booking));

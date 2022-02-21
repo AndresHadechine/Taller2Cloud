@@ -14,7 +14,7 @@ import java.util.List;
 @Table(name = "showtimes")
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
+@Builder(toBuilder = true)
 public class Showtime {
 
     @Id

@@ -47,12 +47,6 @@ p
 @service-users/src/main/java/co/com/poli/users/entities/User.java,a\7\a7c2275a69291853fc98beacf254d473ab217245
 E
 service-users/gradlew,e\9\e99c54e160ead734add84d0732bf8feab51ae13c
-„
-Tservice-config/src/main/java/co/com/poli/serviceconfig/ServiceConfigApplication.java,3\b\3b855e77148e1ec5227636c74d728a0f97149b73
-N
-service-config/settings.gradle,5\7\579486e66d53984c064b8cc378c86d30ae3fb1cf
-K
-service-config/build.gradle,1\6\16c0bc6a7a3dc4d086da7ef070cb9e8452a0c8ae
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
 M
@@ -65,8 +59,6 @@ O
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 K
 service-movies/build.gradle,3\3\33fe7b41f98be7ea5e36db4648547e2b92b3ceab
-…
-Uservice-booking/src/main/java/co/com/poli/booking/repositories/BookingRepository.java,d\7\d7e58d3ec48a43ebcb9b7e0c4c1aec2062b90f72
 ~
 Nservice-booking/src/main/java/co/com/poli/booking/helpers/ResponseBuilder.java,6\c\6c576c169bde4147c8f59c8068bb7031f6c2a830
 Š
