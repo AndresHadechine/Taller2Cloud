@@ -51,7 +51,7 @@ public class BookingController {
         return builder.success(booking);
     }
 
-    @GetMapping("/{idUser}")
+    @GetMapping("/idUser/{idUser}")
     public Response findByIdUser(@PathVariable("idUser") Long idUser){
         Booking booking = bookingService.findByUserId(idUser);
         if(booking == null){

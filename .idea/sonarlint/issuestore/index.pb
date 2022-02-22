@@ -1,6 +1,4 @@
 
-w
-Gservice-users/src/main/java/co/com/poli/users/services/UserService.java,6\2\62355b5e1ccd6e7f59c3f4c0a1fe3887f6486fef
 {
 Kservice-users/src/main/java/co/com/poli/users/services/UserServiceImpl.java,8\0\80c8a549765bc7d7174c70aa90f73ee2e2d9b1e3
 ~
@@ -15,14 +13,6 @@ v
 Fservice-users/src/test/java/co/com/poli/users/UserServiceMockTest.java,a\6\a6ebc4036d5c3f696c41b94a4519ac214124b235
 N
 service-movies/settings.gradle,c\0\c0a312c67afdf664f4b113d1742e6442b2dfc45e
-w
-Gservice-booking/src/main/java/co/com/poli/booking/helpers/Response.java,8\e\8e268c7e61a71156e77dd0d037a7748f0370cbf2
-~
-Nservice-movies/src/main/java/co/com/poli/movies/services/MovieServiceImpl.java,6\5\658d428f2e45e34b4e947567374d6ca72a1d16f3
-z
-Jservice-movies/src/main/java/co/com/poli/movies/services/MovieService.java,4\1\413908ebd62fc70e5ce2c18884b481b1fc4d1df3
-Å
-Qservice-movies/src/main/java/co/com/poli/movies/repositories/MovieRepository.java,b\1\b1e70e9a884b4721877b0f25a1e60a97126e93ec
 Ç
 Rservice-movies/src/test/java/co/com/poli/movies/ServiceMoviesApplicationTests.java,7\a\7a6f315dcf83b22375abb0d4b57d5dc20a4243ac
 y
@@ -47,23 +37,11 @@ p
 @service-users/src/main/java/co/com/poli/users/entities/User.java,a\7\a7c2275a69291853fc98beacf254d473ab217245
 E
 service-users/gradlew,e\9\e99c54e160ead734add84d0732bf8feab51ae13c
-A
-gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
 M
 service-register/build.gradle,d\9\d9ec68ad5157258e471ea50693eb3646f0cda293
 O
 service-booking/settings.gradle,1\1\1182e194be14f95be7bc3ee664aa9b9c375e178d
-?
-settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-<
-build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
 K
 service-movies/build.gradle,3\3\33fe7b41f98be7ea5e36db4648547e2b92b3ceab
-~
-Nservice-booking/src/main/java/co/com/poli/booking/helpers/ResponseBuilder.java,6\c\6c576c169bde4147c8f59c8068bb7031f6c2a830
 ä
 Zservice-register/src/main/java/co/com/poli/serviceregister/ServiceRegisterApplication.java,5\1\51280cc42932d4b32cf48113174c52f3d4c5d91c
-M
-service-users/settings.gradle,b\f\bf5cffa0f10456a3f233435ecb6c99201a50264a
-|
-Lservice-users/src/main/java/co/com/poli/users/controller/UserController.java,7\e\7e241adaf573a8f840d3ab5c7e69872b94e769dd

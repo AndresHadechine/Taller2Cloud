@@ -40,7 +40,9 @@ public class BookingServiceImpl implements BookingService{
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Booking findById(Long id) {
+        List<Movie> movies = (List<Movie>) movieClient.findAll().getData();
         return bookingRepository.findById(id).orElse(null);
     }
 

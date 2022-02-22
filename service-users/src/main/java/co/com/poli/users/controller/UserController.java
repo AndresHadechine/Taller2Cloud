@@ -42,7 +42,7 @@ public class UserController {
         return builder.success(users);
     }
 
-    @GetMapping("/{id}}")
+    @GetMapping("/{id}")
     public Response findById(@PathVariable("id") Long id){
         User user = userService.findById(id);
         if(user == null){

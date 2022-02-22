@@ -1,6 +1,7 @@
 package co.com.poli.booking;
 
 import co.com.poli.booking.entities.Booking;
+import co.com.poli.booking.model.Movie;
 import co.com.poli.booking.repositories.BookingRepository;
 import co.com.poli.booking.services.BookingService;
 import co.com.poli.booking.services.BookingServiceImpl;
@@ -12,6 +13,7 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.List;
 import java.util.Optional;
 
 @SpringBootTest
@@ -30,7 +32,7 @@ public class BookingServiceMockTest {
                 .id(10L)
                 .userId(700L)
                 .showTimeId(333L)
-                .movies()
+                .movies(Movie(8L, "Los simpson", "Matt_Groening",5 ))
                 .build();
         Mockito.when(bookingRepository.findById(10L))
                 .thenReturn(Optional.of(booking));
